@@ -1,0 +1,669 @@
+/* CSS PARA LA PÁGINA INDEX */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body.index{
+    background-image: url(/img/night\ gradient\ S\ for\ desktop\ by\ @Hk3ToN.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+.header_index li{
+    max-width: 7rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    float: right;
+    align-items: center;  
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: 1.20rem;
+}
+
+.listaTop{
+    color: white;
+    border-radius: 20px;
+    background-color: #30B7DF;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .listaTop:hover{
+    background-color: white;
+    color: black;
+}
+
+.contenido{
+    position: relative;
+    display: flex;
+}
+
+
+.ilustracion img{
+    width: 260px;
+    height: 260px;
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 13px;
+    border-radius: 150px;
+    background: linear-gradient(45deg, #ffb702 0%,#fd5d47 60%,#fd5d47 60%,#fd5d47 60%,#fd5d47 60%,#fd5d47 60%,#fd5d47 60%,#fd5d47 62%,#f72aa8 100%);
+}
+
+.nombre{
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.nombre h1{
+    background: linear-gradient(45deg, rgba(106,163,214,1) 21%,rgba(4,27,155,1) 82%);
+    color: white;
+    font-size: 80px;
+    font-family: 'Exo 2', sans-serif;
+    padding: 8px;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 210px;
+    margin-left: 480px;
+    text-align: center;
+}
+
+.nombre h2{
+    background: linear-gradient(135deg, #da358b 0%,#982297 30%,#6f1f9a 49%,#6f1f9a 52%,#2989d8 80%,#7db9e8 100%);
+    color: white;
+    border-radius: 10px;
+    width: 560px;
+    font-size: 40px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: -220px;
+}
+
+.nombre p{
+    color: white;
+    font-family: 'Roboto Mono', sans-serif;
+    font-style: italic;
+    font-size: 17px;
+    margin-left: -240px;
+    margin-top: 5px; 
+    margin-bottom: 20px;
+}
+
+.nombre a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.nombre button{
+    border: none;
+    background: linear-gradient(to right, rgba(254,141,1,1) 2%,rgba(251,49,99,1) 81%,rgba(251,49,99,1) 81%);
+    padding: 5px 13px;
+    border-radius: 20px;
+    margin-left: -130px;
+    text-align: center;
+}
+
+.nombre button:hover{
+    background: linear-gradient(to right, rgba(251,49,99,1) 19%,rgba(251,49,99,1) 19%,rgba(254,141,1,1) 98%); 
+    transform: scale(1.1);
+    box-shadow: 0 0 2rem whitesmoke;
+}
+
+.footer_index{
+    text-align: center;
+    color: white;
+    font-size: x-small;
+}
+
+.final div{
+   position: relative;
+   top: 3rem;
+   display: inline;
+}
+
+
+.contacto {
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-items: center;
+    text-decoration: none;
+}
+
+.botones{
+    border-radius: 4rem;
+    background: none;
+    border: none;
+    width: 2.3rem;
+    height: 2.3rem;
+    margin-right: 3rem;
+}
+
+.redesSociales{
+    color: white;
+    width: 2.3rem;
+    height: 2.3rem;
+    
+}
+
+ul .botones:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 3rem #ffb702;
+}
+
+
+
+
+
+/* CSS PARA LA PÁGINA DE CV */
+
+body.body_cv{
+    background-image: url(/img/richard-horvath-RAZU_R66vUc-unsplash.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-size: cover; 
+    height: 100vh; 
+    margin: 0; 
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    position: relative;
+} 
+
+
+.header_cv li{
+    margin: 15px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    display: flex;
+    float: right;
+}
+
+header .listaTop_cv:hover {
+    background-color: black;
+    color: white;
+}
+
+.listaTop_cv{
+    color: black;
+    border-radius: 20px;
+    background-color: #F9C524;
+    text-decoration: none;
+    padding: 10px;
+}
+
+section.contenedor_cv{
+    position: relative;
+    left: 30%;
+    top: 60px;
+    max-width: 50%;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cv_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgba(248,197,42,1) 20%,rgba(251,49,99,1) 49%,rgba(241,115,32,1) 80%);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    width: 85%;
+}
+
+.cv_principal h1{
+    font-size: 40px;
+}
+
+.cv_principal h2{
+    font-size: 30px;
+}
+
+.cv_principal img{
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding: 8px;
+    background: linear-gradient(135deg, rgba(248,197,42,1) 20%,rgba(251,49,99,1) 49%,rgba(241,115,32,1) 80%);
+}
+
+.cv{
+    background: linear-gradient(135deg, rgba(248,197,42,1) 20%,rgba(251,49,99,1) 49%,rgba(241,115,32,1) 80%);
+    margin-top: 25px;
+    border-radius: 40px;
+    width: 600px;
+    height: 800px;
+    text-align: left;
+    justify-content: center;
+    padding: 15px;
+    padding-left: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.Titulos{
+    color: black;
+    font-size: 22px;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.datos{
+    font-size: 18px;
+    margin: 4px;
+}
+
+.puesto{
+    font-style: italic;
+}
+
+.fecha{
+    margin-bottom: 16px;
+}
+
+.footer_cv{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: small; 
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+/* CSS PARA LA PÁGINA QUIÉN SOY */
+
+body.quienSoy{
+    background-image: url(/img/\ .jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-size: cover; 
+    height: 100vh; 
+    margin: 0; 
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header_qs li{
+    margin: 15px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    display: flex;
+    float: right;
+}
+
+.listaTop_qs{
+    color: white;
+    border-radius: 20px;
+    background-color: #FA4E08;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .listaTop_qs:hover{
+    background-color: black;
+    color: white;
+}
+
+.contenedor_qs{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.fotos img{
+   width: 50px;
+   height: 250px;
+   align-items: center;
+   justify-content: center;
+}
+
+ul.fotos li{
+    float: inline-start;
+    align-items: center;
+    margin: 20px 12px;
+    list-style: none;
+}
+
+ul.fotos li img{
+    width: 200px;
+    display: inline;
+    padding: 5px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, rgba(253,82,4,1) 16%,rgba(180,24,34,1) 49%,rgba(238,169,15,1) 87%);
+}
+
+ul.fotos li:hover img{
+    box-shadow: 0 0 10px whitesmoke ;
+    transform: scale(1.2);
+}
+
+.caption {
+    color: white;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    padding: 3px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.info{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 80%;
+    height: auto;
+    justify-items: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgba(244,127,17,1) 4%,rgba(244,127,17,1) 10%,rgba(228,38,41,1) 28%,rgba(251,69,108,1) 54%,rgba(251,69,108,1) 54%,rgba(251,69,108,1) 60%,rgba(251,69,108,1) 67%,rgba(173,30,109,1) 91%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.TituloQs{
+    margin-bottom: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.SobreMi{
+    font-size: 20px;
+    justify-content: center;
+    text-align:justify;
+    line-height: 30px;
+    margin: 4px;
+    align-self: center;
+}
+
+
+
+
+
+
+
+/* CSS PARA LA PÁGINA DE PROYECTOS */
+.proyectos{
+    background-image: url(/img/Copia\ de\ \ .jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.header_pro li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    display: flex;
+    float: right;
+}
+
+.listaTop_pro{
+    color: white;
+    border-radius: 20px;
+    background-color: #CC60DC;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+
+}
+
+header .listaTop_pro:hover{
+    background-color: black;
+    color: white;
+}
+
+.TituloPro{
+    color: #CF63DF;
+    font-family: 'Roboto Mono', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    margin: 60px 150px;
+    display: block;
+    text-shadow: 0 0 20px black;
+    background: linear-gradient(to right, rgba(68,23,87,1) 1%,rgba(125,47,130,1) 33%,rgba(208,100,224,1) 68%,rgba(208,100,224,1) 68%,rgba(208,100,224,1) 98%);
+    border-radius: 50px;
+}
+
+.materias{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contenedor::after{
+    content: "";
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 0 9%;
+}
+
+.contenedor div{
+    width: 28%;
+    height: auto;
+    display: inline;
+    float: left;
+    margin: 0% 3% 0% 0%;
+    padding: 0px;
+}
+
+.contenedor div img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px #666;
+    border: 3px solid #CF63DF;
+}
+
+.contenedor div img~span{
+    width: 100%;
+    display: block;
+    opacity: 0;
+    margin: 0;
+    padding: 2px 5px;
+    color: white;
+    background: rgba(125,47,130,1);
+    box-shadow: 0 0 10px #666;
+    text-align: center;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.contenedor div img:hover+span{
+    opacity: 1;
+}
+
+.contenedor:hover div{
+    opacity: 0.2;
+    transform: scale(0.7);
+    transition: 2s;
+}
+
+.contenedor:hover div:hover{
+    opacity: 1;
+    transform: scale(1)
+}
+
+.footer_pro{
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: x-small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS PARA LA PÁGINA DE FORMULARIO */
+
+.formulario{
+    background-image: url(/img/mymind-wHJ5L9KGTl4-unsplash.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.section_form section{
+    align-items: center;
+    justify-content: center;
+}
+
+.header_form li{
+    max-width: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    position: relative;
+    display: flex;
+    float: right;
+    align-items: center;  
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.listaTop_form{
+    color: white;
+    border-radius: 20px;
+    background-color: #FA2742;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header .listaTop_form:hover{
+    background-color: #FEC064;
+    color: black;
+}
+
+.form{
+    width: 50%;
+    height: 650px;
+    font-family:'Raleway', sans-serif;
+    font-size: 14px;
+    display: flex;
+    margin: 70px 380px;
+    padding: 30px;
+    background-clip: border-box;
+    background-color: rgba(252, 176, 192, 0.5);
+    color: white;
+    border-radius: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.borde-form{
+    border: none;
+}
+.títuloForm{
+    font-size: 40px;
+}
+
+.h2Form{
+    margin-bottom: 1%;
+    font-size: 20px;
+}
+
+#Comentario{
+    font-style: italic;
+    font-family: 'Exo 2', sans-serif;
+    padding: 5px 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+.pForm{
+    font-size: 18px;
+}
+
+input {
+    padding: 2px;
+    margin: 5px;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+}
+
+.boton{
+    padding: 4px;
+    font-size: 18px;
+    margin-top: 34px;
+    margin-bottom: none;
+    background: #FD4D6C;
+    color: white;
+}
+
+.footer_form{
+    margin-top: 67px;
+}
+
+.boton {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      font-size: 18px;
+    }
+  
+    to {
+      font-size: 22px;
+    }
+  }
+
+
+
+
+
+
