@@ -9,7 +9,7 @@
 }
 
 body.index{
-    background-image: url(/img/night\ gradient\ S\ for\ desktop\ by\ @Hk3ToN.jpg);
+    background-image: url(img/night\ gradient\ S\ for\ desktop\ by\ @Hk3ToN.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -171,7 +171,7 @@ ul .botones:hover{
 /* CSS PARA LA PÁGINA DE CV */
 
 body.body_cv{
-    background-image: url(/img/richard-horvath-RAZU_R66vUc-unsplash.jpg);
+    background-image: url(img/richard-horvath-RAZU_R66vUc-unsplash.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -300,7 +300,7 @@ ul{
 /* CSS PARA LA PÁGINA QUIÉN SOY */
 
 body.quienSoy{
-    background-image: url(/img/\ .jpg);
+    background-image: url(img/\ .jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -417,7 +417,7 @@ ul.fotos li:hover img{
 
 /* CSS PARA LA PÁGINA DE PROYECTOS */
 .proyectos{
-    background-image: url(/img/Copia\ de\ \ .jpg);
+    background-image: url(img/Copia\ de\ \ .jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -531,24 +531,10 @@ header .listaTop_pro:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CSS PARA LA PÁGINA DE FORMULARIO */
 
 .formulario{
-    background-image: url(/img/mymind-wHJ5L9KGTl4-unsplash.jpg);
+    background-image: url(img/mymind-wHJ5L9KGTl4-unsplash.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -634,10 +620,11 @@ input {
     font-size: 15px;
 }
 
-.boton{
+.boton_f{
     padding: 4px;
     font-size: 18px;
     margin-top: 34px;
+    margin-left: 10px;
     margin-bottom: none;
     background: #FD4D6C;
     color: white;
@@ -647,20 +634,11 @@ input {
     margin-top: 67px;
 }
 
-.boton {
-    animation-duration: 3s;
-    animation-name: slidein;
+.boton_f:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px whitesmoke;
   }
   
-  @keyframes slidein {
-    from {
-      font-size: 18px;
-    }
-  
-    to {
-      font-size: 22px;
-    }
-  }
 
 
 
